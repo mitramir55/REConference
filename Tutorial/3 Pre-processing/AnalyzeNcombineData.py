@@ -165,7 +165,7 @@ def process(df_ALL):
 def main():
     '''Read all the files from dir and extract the required columns
         Then concatenate the files to create one big DB
-        Find the stats for them using Tableu
+        Find the stats for them using Table
     '''
     path = '../rawDataDepends_on/'
     files = os.listdir(path)
